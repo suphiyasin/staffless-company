@@ -1,0 +1,24 @@
+/* Sport Energy: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #0d0d0f;
+  --color-surface: #18181c;
+  --color-text: #f4f4f5;
+  --color-muted: #a1a1aa;
+  --color-border: #2a2a31;
+  --color-primary: #e10600;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #ffd400;
+
+  --font-heading: 'Oswald', Impact, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --heading-weight: 700;
+  --heading-transform: uppercase;
+  --heading-tracking: 0.01em;
+
+  --radius: 4px;
+  --radius-lg: 8px;
+  --border-width: 1px;
+  --shadow: 0 18px 40px rgba(225,6,0,.25);
+  --space: 8px;
+  --max-width: 1200px;
+}

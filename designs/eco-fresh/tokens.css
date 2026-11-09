@@ -1,0 +1,24 @@
+/* Eco Fresh: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #f7fbf5;
+  --color-surface: #ffffff;
+  --color-text: #16301f;
+  --color-muted: #5a7262;
+  --color-border: #dce9df;
+  --color-primary: #2f855a;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #d9a441;
+
+  --font-heading: 'Manrope', system-ui, sans-serif;
+  --font-body: 'Manrope', system-ui, sans-serif;
+  --heading-weight: 800;
+  --heading-transform: none;
+  --heading-tracking: -0.02em;
+
+  --radius: 12px;
+  --radius-lg: 24px;
+  --border-width: 1px;
+  --shadow: 0 10px 30px rgba(47,133,90,.10);
+  --space: 8px;
+  --max-width: 1140px;
+}

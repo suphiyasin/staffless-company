@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+web/dist/
+dist/
+*.tsbuildinfo
+
+# Local runtime data (company state, generated projects, screenshots)
+data/
+workspace/
+
+# Secrets: keep .env.example, ignore everything else
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Tool output
+graphify-out/
+.claude/
+coverage/

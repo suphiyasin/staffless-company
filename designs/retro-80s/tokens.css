@@ -1,0 +1,24 @@
+/* Retro 80s: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #0f0b2e;
+  --color-surface: #1a1446;
+  --color-text: #fdf3ff;
+  --color-muted: #bfb3e0;
+  --color-border: #2e2668;
+  --color-primary: #ff6ec7;
+  --color-primary-contrast: #0f0b2e;
+  --color-accent: #ffb347;
+
+  --font-heading: 'Righteous', system-ui, sans-serif;
+  --font-body: 'Chakra Petch', system-ui, sans-serif;
+  --heading-weight: 400;
+  --heading-transform: uppercase;
+  --heading-tracking: 0.06em;
+
+  --radius: 6px;
+  --radius-lg: 12px;
+  --border-width: 1px;
+  --shadow: 0 0 24px rgba(255,110,199,.35);
+  --space: 8px;
+  --max-width: 1160px;
+}

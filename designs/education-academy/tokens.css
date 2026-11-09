@@ -1,0 +1,24 @@
+/* Education Academy: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #fbfcff;
+  --color-surface: #ffffff;
+  --color-text: #172036;
+  --color-muted: #55607a;
+  --color-border: #dfe5f2;
+  --color-primary: #1d4ed8;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #facc15;
+
+  --font-heading: 'Lexend', system-ui, sans-serif;
+  --font-body: 'Lexend', system-ui, sans-serif;
+  --heading-weight: 700;
+  --heading-transform: none;
+  --heading-tracking: -0.01em;
+
+  --radius: 10px;
+  --radius-lg: 18px;
+  --border-width: 1px;
+  --shadow: 0 8px 24px rgba(29,78,216,.08);
+  --space: 8px;
+  --max-width: 1200px;
+}

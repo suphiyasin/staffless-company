@@ -1,0 +1,24 @@
+/* Neo-Brutalist: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #fffdf5;
+  --color-surface: #ffffff;
+  --color-text: #000000;
+  --color-muted: #3d3d3d;
+  --color-border: #000000;
+  --color-primary: #ffde03;
+  --color-primary-contrast: #000000;
+  --color-accent: #ff5ca8;
+
+  --font-heading: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Space Grotesk', system-ui, sans-serif;
+  --heading-weight: 700;
+  --heading-transform: none;
+  --heading-tracking: -0.02em;
+
+  --radius: 8px;
+  --radius-lg: 12px;
+  --border-width: 3px;
+  --shadow: 6px 6px 0 #000;
+  --space: 8px;
+  --max-width: 1120px;
+}

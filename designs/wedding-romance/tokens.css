@@ -1,0 +1,24 @@
+/* Wedding Romance: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #fdfaf6;
+  --color-surface: #f6eee8;
+  --color-text: #3a2f30;
+  --color-muted: #73625f;
+  --color-border: #eadcd3;
+  --color-primary: #8c4a5a;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #7d9a85;
+
+  --font-heading: 'Italiana', Georgia, serif;
+  --font-body: 'Lora', Georgia, serif;
+  --heading-weight: 400;
+  --heading-transform: none;
+  --heading-tracking: 0.04em;
+
+  --radius: 2px;
+  --radius-lg: 4px;
+  --border-width: 1px;
+  --shadow: none;
+  --space: 8px;
+  --max-width: 1000px;
+}

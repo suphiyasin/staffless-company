@@ -1,0 +1,24 @@
+/* Dental Fresh: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #f7fcfc;
+  --color-surface: #ffffff;
+  --color-text: #123238;
+  --color-muted: #4f6b70;
+  --color-border: #d5ecee;
+  --color-primary: #00707c;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #ff8a65;
+
+  --font-heading: 'Outfit', system-ui, sans-serif;
+  --font-body: 'Outfit', system-ui, sans-serif;
+  --heading-weight: 700;
+  --heading-transform: none;
+  --heading-tracking: -0.01em;
+
+  --radius: 12px;
+  --radius-lg: 24px;
+  --border-width: 1px;
+  --shadow: 0 10px 30px rgba(0,112,124,.10);
+  --space: 8px;
+  --max-width: 1140px;
+}

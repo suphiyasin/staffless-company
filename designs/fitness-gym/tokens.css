@@ -1,0 +1,24 @@
+/* Fitness Gym: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #101213;
+  --color-surface: #1b1e20;
+  --color-text: #f2f4f3;
+  --color-muted: #a3aaa6;
+  --color-border: #2c3133;
+  --color-primary: #c6f432;
+  --color-primary-contrast: #101213;
+  --color-accent: #ff5a36;
+
+  --font-heading: 'Anton', Impact, sans-serif;
+  --font-body: 'Barlow', system-ui, sans-serif;
+  --heading-weight: 400;
+  --heading-transform: uppercase;
+  --heading-tracking: 0.01em;
+
+  --radius: 4px;
+  --radius-lg: 8px;
+  --border-width: 1px;
+  --shadow: none;
+  --space: 8px;
+  --max-width: 1200px;
+}

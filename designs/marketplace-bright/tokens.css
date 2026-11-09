@@ -1,0 +1,24 @@
+/* Marketplace Bright: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #fffaf5;
+  --color-surface: #ffffff;
+  --color-text: #1f1b16;
+  --color-muted: #625a52;
+  --color-border: #f1e4d6;
+  --color-primary: #c2410c;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #0f766e;
+
+  --font-heading: 'Poppins', system-ui, sans-serif;
+  --font-body: 'Poppins', system-ui, sans-serif;
+  --heading-weight: 700;
+  --heading-transform: none;
+  --heading-tracking: -0.01em;
+
+  --radius: 12px;
+  --radius-lg: 20px;
+  --border-width: 1px;
+  --shadow: 0 6px 20px rgba(31,27,22,.08);
+  --space: 8px;
+  --max-width: 1240px;
+}

@@ -1,0 +1,24 @@
+/* Yoga Calm: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #f7f3ec;
+  --color-surface: #efe8dc;
+  --color-text: #2f3a33;
+  --color-muted: #66705f;
+  --color-border: #ddd4c4;
+  --color-primary: #4f6b57;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #b9785a;
+
+  --font-heading: 'Marcellus', Georgia, serif;
+  --font-body: 'Mulish', system-ui, sans-serif;
+  --heading-weight: 400;
+  --heading-transform: none;
+  --heading-tracking: 0.01em;
+
+  --radius: 999px;
+  --radius-lg: 24px;
+  --border-width: 1px;
+  --shadow: none;
+  --space: 8px;
+  --max-width: 1080px;
+}

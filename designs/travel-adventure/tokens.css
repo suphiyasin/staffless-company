@@ -1,0 +1,24 @@
+/* Travel Adventure: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #fdfaf3;
+  --color-surface: #f2ede0;
+  --color-text: #1b2620;
+  --color-muted: #58635b;
+  --color-border: #ddd5c2;
+  --color-primary: #1f5f3f;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #e8702a;
+
+  --font-heading: 'Archivo', system-ui, sans-serif;
+  --font-body: 'Archivo', system-ui, sans-serif;
+  --heading-weight: 800;
+  --heading-transform: none;
+  --heading-tracking: -0.02em;
+
+  --radius: 6px;
+  --radius-lg: 14px;
+  --border-width: 1px;
+  --shadow: none;
+  --space: 8px;
+  --max-width: 1200px;
+}

@@ -1,0 +1,24 @@
+/* E-commerce Clean: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #ffffff;
+  --color-surface: #f5f6f8;
+  --color-text: #111827;
+  --color-muted: #5b6472;
+  --color-border: #e5e7eb;
+  --color-primary: #1e3a8a;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #16a34a;
+
+  --font-heading: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --heading-weight: 700;
+  --heading-transform: none;
+  --heading-tracking: -0.02em;
+
+  --radius: 10px;
+  --radius-lg: 16px;
+  --border-width: 1px;
+  --shadow: none;
+  --space: 8px;
+  --max-width: 1280px;
+}

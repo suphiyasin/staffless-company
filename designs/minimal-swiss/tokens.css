@@ -1,0 +1,24 @@
+/* Minimal Swiss: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #ffffff;
+  --color-surface: #f5f5f5;
+  --color-text: #111111;
+  --color-muted: #6b6b6b;
+  --color-border: #e2e2e2;
+  --color-primary: #e3120b;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #111111;
+
+  --font-heading: 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --heading-weight: 800;
+  --heading-transform: none;
+  --heading-tracking: -0.03em;
+
+  --radius: 0px;
+  --radius-lg: 0px;
+  --border-width: 1px;
+  --shadow: none;
+  --space: 8px;
+  --max-width: 1200px;
+}

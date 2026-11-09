@@ -1,0 +1,24 @@
+/* Photo Portfolio: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #0e0e0e;
+  --color-surface: #171717;
+  --color-text: #ededed;
+  --color-muted: #a0a0a0;
+  --color-border: #2a2a2a;
+  --color-primary: #ededed;
+  --color-primary-contrast: #0e0e0e;
+  --color-accent: #d4b483;
+
+  --font-heading: 'Manrope', system-ui, sans-serif;
+  --font-body: 'Manrope', system-ui, sans-serif;
+  --heading-weight: 500;
+  --heading-transform: none;
+  --heading-tracking: -0.01em;
+
+  --radius: 0px;
+  --radius-lg: 0px;
+  --border-width: 1px;
+  --shadow: none;
+  --space: 8px;
+  --max-width: 1440px;
+}

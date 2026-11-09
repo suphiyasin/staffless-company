@@ -1,0 +1,24 @@
+/* Restaurant Bistro: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #fbf6ea;
+  --color-surface: #f2ead6;
+  --color-text: #1f2a24;
+  --color-muted: #5c6158;
+  --color-border: #e0d6bd;
+  --color-primary: #1f4d3a;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #c8553d;
+
+  --font-heading: 'Fraunces', Georgia, serif;
+  --font-body: 'Work Sans', system-ui, sans-serif;
+  --heading-weight: 800;
+  --heading-transform: none;
+  --heading-tracking: -0.01em;
+
+  --radius: 4px;
+  --radius-lg: 8px;
+  --border-width: 1px;
+  --shadow: none;
+  --space: 8px;
+  --max-width: 1120px;
+}

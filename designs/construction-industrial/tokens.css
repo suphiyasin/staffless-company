@@ -1,0 +1,24 @@
+/* Construction Industrial: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #f4f4f2;
+  --color-surface: #ffffff;
+  --color-text: #1a1c1e;
+  --color-muted: #575b60;
+  --color-border: #d5d6d3;
+  --color-primary: #1a1c1e;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #f5b800;
+
+  --font-heading: 'Bebas Neue', Impact, sans-serif;
+  --font-body: 'Roboto', system-ui, sans-serif;
+  --heading-weight: 400;
+  --heading-transform: uppercase;
+  --heading-tracking: 0.02em;
+
+  --radius: 2px;
+  --radius-lg: 4px;
+  --border-width: 1px;
+  --shadow: none;
+  --space: 8px;
+  --max-width: 1220px;
+}

@@ -1,0 +1,24 @@
+/* Editorial Serif: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #faf7f0;
+  --color-surface: #f1ece0;
+  --color-text: #1d1b17;
+  --color-muted: #6e6656;
+  --color-border: #ddd5c4;
+  --color-primary: #8b2e1c;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #1d1b17;
+
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Source Serif 4', Georgia, serif;
+  --heading-weight: 800;
+  --heading-transform: none;
+  --heading-tracking: -0.01em;
+
+  --radius: 2px;
+  --radius-lg: 4px;
+  --border-width: 1px;
+  --shadow: none;
+  --space: 8px;
+  --max-width: 1080px;
+}

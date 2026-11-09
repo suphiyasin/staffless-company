@@ -1,0 +1,24 @@
+/* Fine Dining: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #121110;
+  --color-surface: #1c1a18;
+  --color-text: #f3ede2;
+  --color-muted: #b3aa9b;
+  --color-border: #34302b;
+  --color-primary: #c9a96e;
+  --color-primary-contrast: #121110;
+  --color-accent: #8c6a4a;
+
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Jost', system-ui, sans-serif;
+  --heading-weight: 600;
+  --heading-transform: none;
+  --heading-tracking: 0.02em;
+
+  --radius: 0px;
+  --radius-lg: 2px;
+  --border-width: 1px;
+  --shadow: none;
+  --space: 8px;
+  --max-width: 1080px;
+}

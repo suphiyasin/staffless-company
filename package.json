@@ -1,0 +1,61 @@
+{
+  "name": "staffless",
+  "version": "0.1.0",
+  "description": "An open-source software company where every employee is an AI: the CEO plans, managers split the work, AI Resources hires the right model, and a context graph keeps every call lean.",
+  "homepage": "https://github.com/suphiyasin/staffless-company#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suphiyasin/staffless-company.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suphiyasin/staffless-company/issues"
+  },
+  "scripts": {
+    "dev": "tsx watch --clear-screen=false --ignore ./workspace/** --ignore ./data/** --ignore ./web/** server/index.ts",
+    "start": "tsx server/index.ts --prod",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "multi-agent",
+    "llm",
+    "claude",
+    "openai",
+    "gemini",
+    "ollama",
+    "simulation",
+    "context-graph",
+    "knowledge-graph",
+    "token-efficiency"
+  ],
+  "author": "suphiyasin <admin@illegal.tr>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0",
+    "archiver": "^8.0.0",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "playwright-core": "^1.65.0",
+    "undici": "^8.12.4"
+  },
+  "devDependencies": {
+    "@types/archiver": "^8.0.0",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.2.1",
+    "lucide-react": "^1.70.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.6"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

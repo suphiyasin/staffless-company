@@ -1,0 +1,331 @@
+{
+  "_readme": "The candidate pool AI Resources hires from. Skill scores are subjective 1-10 values; prices are approximate USD per 1M tokens. Send a PR to add a model or update scores. provider: anthropic | openai | gemini | ollama | compat | claude-cli | codex-cli | mock. Models tagged \"subscription\" run through a logged-in CLI: ranked by their API-equivalent price, billed $0 per call.",
+  "models": [
+    {
+      "key": "claude-cli:opus",
+      "provider": "claude-cli",
+      "model": "opus",
+      "label": "Claude Opus · Claude Code",
+      "skills": {
+        "planning": 10,
+        "coding": 10,
+        "design": 9,
+        "writing": 9,
+        "review": 10
+      },
+      "speed": 4,
+      "price": {
+        "input": 4,
+        "output": 20
+      },
+      "tags": [
+        "subscription",
+        "leader"
+      ],
+      "notes": "Runs through your Claude Code login (Pro/Max plan). Counts toward your plan limits."
+    },
+    {
+      "key": "claude-cli:sonnet",
+      "provider": "claude-cli",
+      "model": "sonnet",
+      "label": "Claude Sonnet · Claude Code",
+      "skills": {
+        "planning": 9,
+        "coding": 9,
+        "design": 8,
+        "writing": 8,
+        "review": 9
+      },
+      "speed": 6,
+      "price": {
+        "input": 2,
+        "output": 10
+      },
+      "tags": [
+        "subscription"
+      ],
+      "notes": "Runs through your Claude Code login (Pro/Max plan). Counts toward your plan limits."
+    },
+    {
+      "key": "claude-cli:haiku",
+      "provider": "claude-cli",
+      "model": "haiku",
+      "label": "Claude Haiku · Claude Code",
+      "skills": {
+        "planning": 7,
+        "coding": 7,
+        "design": 6,
+        "writing": 7,
+        "review": 7
+      },
+      "speed": 8,
+      "price": {
+        "input": 0.1,
+        "output": 0.5
+      },
+      "tags": [
+        "subscription",
+        "budget"
+      ],
+      "notes": "Runs through your Claude Code login. Light on plan limits."
+    },
+    {
+      "key": "codex-cli:default",
+      "provider": "codex-cli",
+      "model": "default",
+      "label": "Codex · ChatGPT",
+      "skills": {
+        "planning": 9,
+        "coding": 9,
+        "design": 7,
+        "writing": 8,
+        "review": 9
+      },
+      "speed": 4,
+      "price": {
+        "input": 1.25,
+        "output": 10
+      },
+      "tags": [
+        "subscription"
+      ],
+      "notes": "Runs through your Codex CLI login (ChatGPT plan) with Codex's default model. Add entries with a specific model name if you like."
+    },
+    {
+      "key": "anthropic:claude-fable-5-1",
+      "provider": "anthropic",
+      "model": "claude-fable-5-1",
+      "label": "Claude Fable 5.1",
+      "skills": {
+        "planning": 10,
+        "coding": 10,
+        "design": 10,
+        "writing": 10,
+        "review": 10
+      },
+      "speed": 3,
+      "price": {
+        "input": 10,
+        "output": 50
+      },
+      "tags": [
+        "premium"
+      ],
+      "notes": "Anthropic's most capable model. Very expensive; only recommended under the quality priority."
+    },
+    {
+      "key": "anthropic:claude-opus-5-5",
+      "provider": "anthropic",
+      "model": "claude-opus-5-5",
+      "label": "Claude Opus 5.5",
+      "skills": {
+        "planning": 10,
+        "coding": 10,
+        "design": 9,
+        "writing": 9,
+        "review": 10
+      },
+      "speed": 5,
+      "price": {
+        "input": 4,
+        "output": 20
+      },
+      "tags": [
+        "leader"
+      ],
+      "notes": "Excellent for leadership, architecture and hard coding work."
+    },
+    {
+      "key": "anthropic:claude-sonnet-5-5",
+      "provider": "anthropic",
+      "model": "claude-sonnet-5-5",
+      "label": "Claude Sonnet 5.5",
+      "skills": {
+        "planning": 9,
+        "coding": 9,
+        "design": 8,
+        "writing": 8,
+        "review": 9
+      },
+      "speed": 7,
+      "price": {
+        "input": 2,
+        "output": 10
+      },
+      "tags": [],
+      "notes": "Great price/performance; the workhorse for everyday coding."
+    },
+    {
+      "key": "anthropic:claude-haiku-5-5",
+      "provider": "anthropic",
+      "model": "claude-haiku-5-5",
+      "label": "Claude Haiku 5.5",
+      "skills": {
+        "planning": 7,
+        "coding": 7,
+        "design": 6,
+        "writing": 7,
+        "review": 7
+      },
+      "speed": 10,
+      "price": {
+        "input": 0.1,
+        "output": 0.5
+      },
+      "tags": [
+        "budget"
+      ],
+      "notes": "Very fast and very cheap. Ideal for simple tasks and large teams."
+    },
+    {
+      "key": "openai:gpt-5",
+      "provider": "openai",
+      "model": "gpt-5",
+      "label": "GPT-5",
+      "skills": {
+        "planning": 9,
+        "coding": 9,
+        "design": 8,
+        "writing": 8,
+        "review": 9
+      },
+      "speed": 5,
+      "price": {
+        "input": 1.25,
+        "output": 10
+      },
+      "tags": [],
+      "notes": "OpenAI's strong general-purpose model."
+    },
+    {
+      "key": "openai:gpt-5-mini",
+      "provider": "openai",
+      "model": "gpt-5-mini",
+      "label": "GPT-5 mini",
+      "skills": {
+        "planning": 7,
+        "coding": 7,
+        "design": 6,
+        "writing": 7,
+        "review": 7
+      },
+      "speed": 8,
+      "price": {
+        "input": 0.25,
+        "output": 2
+      },
+      "tags": [
+        "budget"
+      ],
+      "notes": "Cheap and fast OpenAI option."
+    },
+    {
+      "key": "gemini:gemini-2.5-pro",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro",
+      "label": "Gemini 2.5 Pro",
+      "skills": {
+        "planning": 8,
+        "coding": 8,
+        "design": 7,
+        "writing": 8,
+        "review": 8
+      },
+      "speed": 6,
+      "price": {
+        "input": 1.25,
+        "output": 10
+      },
+      "tags": [],
+      "notes": "Google model that is strong with long context."
+    },
+    {
+      "key": "gemini:gemini-2.5-flash",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash",
+      "label": "Gemini 2.5 Flash",
+      "skills": {
+        "planning": 7,
+        "coding": 7,
+        "design": 6,
+        "writing": 7,
+        "review": 7
+      },
+      "speed": 9,
+      "price": {
+        "input": 0.3,
+        "output": 2.5
+      },
+      "tags": [
+        "budget"
+      ],
+      "notes": "Fast, affordable Google model."
+    },
+    {
+      "key": "ollama:qwen2.5-coder:14b",
+      "provider": "ollama",
+      "model": "qwen2.5-coder:14b",
+      "label": "Qwen2.5 Coder 14B (local)",
+      "skills": {
+        "planning": 5,
+        "coding": 7,
+        "design": 4,
+        "writing": 5,
+        "review": 5
+      },
+      "speed": 5,
+      "price": {
+        "input": 0,
+        "output": 0
+      },
+      "tags": [
+        "local"
+      ],
+      "notes": "Free, runs on your machine. Code-focused."
+    },
+    {
+      "key": "ollama:llama3.1:8b",
+      "provider": "ollama",
+      "model": "llama3.1:8b",
+      "label": "Llama 3.1 8B (local)",
+      "skills": {
+        "planning": 4,
+        "coding": 4,
+        "design": 3,
+        "writing": 6,
+        "review": 4
+      },
+      "speed": 7,
+      "price": {
+        "input": 0,
+        "output": 0
+      },
+      "tags": [
+        "local"
+      ],
+      "notes": "Free, runs on your machine. Good enough for writing tasks."
+    },
+    {
+      "key": "mock:demo",
+      "provider": "mock",
+      "model": "demo",
+      "label": "Demo AI",
+      "skills": {
+        "planning": 5,
+        "coding": 5,
+        "design": 5,
+        "writing": 5,
+        "review": 5
+      },
+      "speed": 10,
+      "price": {
+        "input": 0,
+        "output": 0
+      },
+      "tags": [
+        "demo"
+      ],
+      "notes": "Simulated AI used when no API key is configured. For trying out the flow."
+    }
+  ]
+}

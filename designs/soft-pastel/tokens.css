@@ -1,0 +1,24 @@
+/* Soft Pastel: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #fff8f6;
+  --color-surface: #ffffff;
+  --color-text: #3a2e39;
+  --color-muted: #8a7a87;
+  --color-border: #f1e1e3;
+  --color-primary: #f28ba8;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #7fd1b9;
+
+  --font-heading: 'Nunito', system-ui, sans-serif;
+  --font-body: 'Nunito', system-ui, sans-serif;
+  --heading-weight: 800;
+  --heading-transform: none;
+  --heading-tracking: -0.01em;
+
+  --radius: 16px;
+  --radius-lg: 28px;
+  --border-width: 1px;
+  --shadow: 0 12px 30px rgba(242,139,168,.18);
+  --space: 8px;
+  --max-width: 1100px;
+}

@@ -1,0 +1,24 @@
+/* Luxury Noir: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #0c0b0a;
+  --color-surface: #16140f;
+  --color-text: #efe9dc;
+  --color-muted: #a69c86;
+  --color-border: #2b2620;
+  --color-primary: #c9a45c;
+  --color-primary-contrast: #0c0b0a;
+  --color-accent: #efe9dc;
+
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Montserrat', system-ui, sans-serif;
+  --heading-weight: 500;
+  --heading-transform: uppercase;
+  --heading-tracking: 0.12em;
+
+  --radius: 0px;
+  --radius-lg: 0px;
+  --border-width: 1px;
+  --shadow: none;
+  --space: 10px;
+  --max-width: 1200px;
+}

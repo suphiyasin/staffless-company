@@ -1,0 +1,24 @@
+/* Crypto Neon: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #070a1a;
+  --color-surface: #0f1430;
+  --color-text: #e6f1ff;
+  --color-muted: #93a1c4;
+  --color-border: #1f2850;
+  --color-primary: #00e5ff;
+  --color-primary-contrast: #070a1a;
+  --color-accent: #ff3df2;
+
+  --font-heading: 'Orbitron', system-ui, sans-serif;
+  --font-body: 'Exo 2', system-ui, sans-serif;
+  --heading-weight: 800;
+  --heading-transform: uppercase;
+  --heading-tracking: 0.04em;
+
+  --radius: 6px;
+  --radius-lg: 14px;
+  --border-width: 1px;
+  --shadow: 0 0 30px rgba(0,229,255,.25);
+  --space: 8px;
+  --max-width: 1200px;
+}

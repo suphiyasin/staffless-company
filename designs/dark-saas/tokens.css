@@ -1,0 +1,24 @@
+/* Dark SaaS: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #0b0d17;
+  --color-surface: #141828;
+  --color-text: #eef0f8;
+  --color-muted: #9aa1b9;
+  --color-border: #262b40;
+  --color-primary: #7c5cff;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #22d3ee;
+
+  --font-heading: 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --heading-weight: 700;
+  --heading-transform: none;
+  --heading-tracking: -0.02em;
+
+  --radius: 10px;
+  --radius-lg: 18px;
+  --border-width: 1px;
+  --shadow: 0 20px 60px rgba(124,92,255,.18);
+  --space: 8px;
+  --max-width: 1160px;
+}

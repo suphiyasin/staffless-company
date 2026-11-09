@@ -1,0 +1,24 @@
+/* Medical Clinic: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #ffffff;
+  --color-surface: #f1f7f7;
+  --color-text: #0f2a33;
+  --color-muted: #4c6670;
+  --color-border: #d6e5e7;
+  --color-primary: #0b6e74;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #2563eb;
+
+  --font-heading: 'Public Sans', system-ui, sans-serif;
+  --font-body: 'Public Sans', system-ui, sans-serif;
+  --heading-weight: 700;
+  --heading-transform: none;
+  --heading-tracking: -0.01em;
+
+  --radius: 8px;
+  --radius-lg: 14px;
+  --border-width: 1px;
+  --shadow: 0 4px 16px rgba(15,42,51,.06);
+  --space: 8px;
+  --max-width: 1180px;
+}

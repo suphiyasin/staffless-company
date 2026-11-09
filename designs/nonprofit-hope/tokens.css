@@ -1,0 +1,24 @@
+/* Nonprofit Hope: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #fffdf7;
+  --color-surface: #f5f1e6;
+  --color-text: #1d2a22;
+  --color-muted: #56625a;
+  --color-border: #e2dccb;
+  --color-primary: #1f6f43;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #f2b134;
+
+  --font-heading: 'Merriweather', Georgia, serif;
+  --font-body: 'Libre Franklin', system-ui, sans-serif;
+  --heading-weight: 900;
+  --heading-transform: none;
+  --heading-tracking: -0.01em;
+
+  --radius: 8px;
+  --radius-lg: 14px;
+  --border-width: 1px;
+  --shadow: none;
+  --space: 8px;
+  --max-width: 1160px;
+}

@@ -1,0 +1,24 @@
+/* Real Estate: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #ffffff;
+  --color-surface: #f4f2ee;
+  --color-text: #1b2333;
+  --color-muted: #5d6575;
+  --color-border: #e3dfd7;
+  --color-primary: #1b2a4a;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #b08d57;
+
+  --font-heading: 'DM Serif Display', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --heading-weight: 400;
+  --heading-transform: none;
+  --heading-tracking: -0.01em;
+
+  --radius: 6px;
+  --radius-lg: 12px;
+  --border-width: 1px;
+  --shadow: 0 8px 24px rgba(27,35,51,.08);
+  --space: 8px;
+  --max-width: 1240px;
+}

@@ -1,0 +1,24 @@
+/* Coffee Roastery: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #f6efe4;
+  --color-surface: #ebdfcb;
+  --color-text: #2b1d14;
+  --color-muted: #6b5a4b;
+  --color-border: #d9c8ad;
+  --color-primary: #6f3b1e;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #d08c2f;
+
+  --font-heading: 'Bitter', Georgia, serif;
+  --font-body: 'Karla', system-ui, sans-serif;
+  --heading-weight: 700;
+  --heading-transform: none;
+  --heading-tracking: -0.01em;
+
+  --radius: 6px;
+  --radius-lg: 12px;
+  --border-width: 1.5px;
+  --shadow: none;
+  --space: 8px;
+  --max-width: 1140px;
+}

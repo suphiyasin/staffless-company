@@ -1,0 +1,24 @@
+/* Law Classic: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #fdfcf8;
+  --color-surface: #f2efe6;
+  --color-text: #14213d;
+  --color-muted: #55607a;
+  --color-border: #dcd6c6;
+  --color-primary: #14213d;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #9c7c38;
+
+  --font-heading: 'Libre Baskerville', Georgia, serif;
+  --font-body: 'Source Sans 3', system-ui, sans-serif;
+  --heading-weight: 700;
+  --heading-transform: none;
+  --heading-tracking: -0.01em;
+
+  --radius: 2px;
+  --radius-lg: 4px;
+  --border-width: 1px;
+  --shadow: none;
+  --space: 8px;
+  --max-width: 1140px;
+}

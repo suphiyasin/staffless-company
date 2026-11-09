@@ -1,0 +1,24 @@
+/* Fashion Editorial: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #ffffff;
+  --color-surface: #f3f3f1;
+  --color-text: #0a0a0a;
+  --color-muted: #5e5e5e;
+  --color-border: #e4e4e1;
+  --color-primary: #0a0a0a;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #e0115f;
+
+  --font-heading: 'Bodoni Moda', Didot, serif;
+  --font-body: 'Inter Tight', system-ui, sans-serif;
+  --heading-weight: 700;
+  --heading-transform: none;
+  --heading-tracking: -0.03em;
+
+  --radius: 0px;
+  --radius-lg: 0px;
+  --border-width: 1px;
+  --shadow: none;
+  --space: 8px;
+  --max-width: 1360px;
+}

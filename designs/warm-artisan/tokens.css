@@ -1,0 +1,24 @@
+/* Warm Artisan: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #fbf4ea;
+  --color-surface: #f3e6d3;
+  --color-text: #2f1f17;
+  --color-muted: #7a6252;
+  --color-border: #e3d0b8;
+  --color-primary: #c4552d;
+  --color-primary-contrast: #fff8f0;
+  --color-accent: #5f7a4a;
+
+  --font-heading: 'DM Serif Display', Georgia, serif;
+  --font-body: 'Karla', system-ui, sans-serif;
+  --heading-weight: 400;
+  --heading-transform: none;
+  --heading-tracking: 0;
+
+  --radius: 6px;
+  --radius-lg: 14px;
+  --border-width: 1px;
+  --shadow: 0 10px 30px rgba(47,31,23,.10);
+  --space: 8px;
+  --max-width: 1120px;
+}

@@ -1,0 +1,24 @@
+/* Fintech Modern: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #f7f8fc;
+  --color-surface: #ffffff;
+  --color-text: #0d1433;
+  --color-muted: #525a78;
+  --color-border: #e1e4f0;
+  --color-primary: #3730a3;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #0e9f6e;
+
+  --font-heading: 'Sora', system-ui, sans-serif;
+  --font-body: 'Sora', system-ui, sans-serif;
+  --heading-weight: 700;
+  --heading-transform: none;
+  --heading-tracking: -0.02em;
+
+  --radius: 12px;
+  --radius-lg: 22px;
+  --border-width: 1px;
+  --shadow: 0 18px 40px rgba(55,48,163,.10);
+  --space: 8px;
+  --max-width: 1180px;
+}

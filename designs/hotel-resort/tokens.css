@@ -1,0 +1,24 @@
+/* Hotel Resort: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #fbf8f3;
+  --color-surface: #f1ebe1;
+  --color-text: #1e2b2f;
+  --color-muted: #5f6a6c;
+  --color-border: #e2d9cb;
+  --color-primary: #0f5257;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #d4935d;
+
+  --font-heading: 'Gilda Display', Georgia, serif;
+  --font-body: 'Lato', system-ui, sans-serif;
+  --heading-weight: 400;
+  --heading-transform: none;
+  --heading-tracking: 0.01em;
+
+  --radius: 2px;
+  --radius-lg: 6px;
+  --border-width: 1px;
+  --shadow: none;
+  --space: 8px;
+  --max-width: 1200px;
+}

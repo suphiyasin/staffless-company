@@ -1,0 +1,24 @@
+/* Playful Kids: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #fffaf0;
+  --color-surface: #ffffff;
+  --color-text: #22223b;
+  --color-muted: #5c5c7a;
+  --color-border: #22223b;
+  --color-primary: #ff6b35;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #3a86ff;
+
+  --font-heading: 'Baloo 2', system-ui, sans-serif;
+  --font-body: 'Baloo 2', system-ui, sans-serif;
+  --heading-weight: 800;
+  --heading-transform: none;
+  --heading-tracking: 0;
+
+  --radius: 18px;
+  --radius-lg: 28px;
+  --border-width: 3px;
+  --shadow: 0 6px 0 #22223b;
+  --space: 8px;
+  --max-width: 1080px;
+}

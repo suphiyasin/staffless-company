@@ -1,0 +1,24 @@
+/* AI Startup: design tokens. Link this before your own CSS and use the variables. */
+:root {
+  --color-bg: #ffffff;
+  --color-surface: #f6f5ff;
+  --color-text: #14121f;
+  --color-muted: #5d5a6e;
+  --color-border: #e7e5f3;
+  --color-primary: #5b3df5;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #ec4899;
+
+  --font-heading: 'Figtree', system-ui, sans-serif;
+  --font-body: 'Figtree', system-ui, sans-serif;
+  --heading-weight: 800;
+  --heading-transform: none;
+  --heading-tracking: -0.03em;
+
+  --radius: 12px;
+  --radius-lg: 20px;
+  --border-width: 1px;
+  --shadow: 0 20px 50px rgba(91,61,245,.12);
+  --space: 8px;
+  --max-width: 1160px;
+}
