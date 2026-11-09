@@ -33,7 +33,7 @@
 
 You are the client. You say _"I want a website like this"_. The **CEO** plans it, **department managers** say _"on it"_ and split the work across their teams. When a team is missing someone, **AI Resources** (the AI counterpart of Human Resources) ranks the available models for that role and asks the manager who needs the worker. If the manager accepts, the model is hired. The team ships **real files** you can preview and download.
 
-It runs on your **Claude Code** or **Codex CLI** subscription, on API keys (Anthropic, OpenAI, Gemini, any OpenAI-compatible endpoint) or on free local models via **Ollama**. With nothing configured it starts in **demo mode**, so you can try it in a minute.
+**No API key required.** It runs on the **Claude Code** or **Codex CLI** subscription you already pay for, launching the CLI in the background for every employee. API keys (Anthropic, OpenAI, Gemini, any OpenAI-compatible endpoint) and free local models via **Ollama** work too. With nothing configured it starts in **demo mode**, so you can try it in a minute.
 
 ---
 
@@ -45,14 +45,21 @@ Requires **Node.js 20+**.
 git clone https://github.com/suphiyasin/staffless-company.git
 cd staffless-company
 npm install
-cp .env.example .env      # optional: add your API keys
 npm run dev
 ```
 
-Open **http://127.0.0.1:4747** and describe what you want built.
+Open **http://127.0.0.1:4747** and describe what you want built. Then pick how your employees think:
+
+| Option | Setup | Cost |
+|---|---|---|
+| ⭐ **Claude Code** (Claude Pro / Max) | `npm i -g @anthropic-ai/claude-code` → `claude auth login` | your subscription, no API key |
+| **Codex CLI** (ChatGPT Plus / Pro) | `npm i -g @openai/codex` → `codex login` | your subscription, no API key |
+| **API keys** | `cp .env.example .env` and fill in `ANTHROPIC_API_KEY`, `OPENAI_API_KEY`, `GEMINI_API_KEY`… | pay per token |
+| **Ollama** (local) | install [Ollama](https://ollama.com) and pull a model | free |
+| **Demo mode** | nothing | free, simulated AI |
 
 > [!TIP]
-> If Claude Code or Codex CLI is installed and logged in, the company uses your subscription automatically. Otherwise add an API key to `.env` or run [Ollama](https://ollama.com). With nothing configured it starts in **demo mode**, where a simulated AI plays every role and builds a sample site.
+> Logged-in CLIs are **detected automatically** at startup (or with **Settings → Refresh models**). Staffless runs them headless (`claude -p`, `codex exec`), so no terminal window opens and your API keys are never billed for CLI work. You can mix options: every employee can run on a different model. Details in [Providers](#-providers).
 
 | Command | What it does |
 |---|---|
