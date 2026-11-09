@@ -7,6 +7,7 @@
 <p align="center">
   <b>A company with no staff. Every employee is an AI.</b><br>
   An open-source software company that gets great work out of AI while spending as few tokens as possible.
+  Ready-made agent merging repository
 </p>
 
 <p align="center">
